@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76434E9B1EA7C38E002F4C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76434E9A1EA7C38E002F4C30 /* AppDelegate.swift */; };
+		76434E9D1EA7C38E002F4C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76434E9C1EA7C38E002F4C30 /* ViewController.swift */; };
+		76434EA01EA7C38E002F4C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76434E9E1EA7C38E002F4C30 /* Main.storyboard */; };
+		76434EA31EA7C38E002F4C30 /* AccordeonView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76434EA11EA7C38E002F4C30 /* AccordeonView.xcdatamodeld */; };
+		76434EA51EA7C38E002F4C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76434EA41EA7C38E002F4C30 /* Assets.xcassets */; };
+		76434EA81EA7C38E002F4C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76434EA61EA7C38E002F4C30 /* LaunchScreen.storyboard */; };
+		76434EB31EA7C38E002F4C30 /* AccordeonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76434EB21EA7C38E002F4C30 /* AccordeonViewTests.swift */; };
+		76434EBE1EA7C38E002F4C30 /* AccordeonViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76434EBD1EA7C38E002F4C30 /* AccordeonViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76434EAF1EA7C38E002F4C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76434E8F1EA7C38E002F4C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76434E961EA7C38E002F4C30;
+			remoteInfo = AccordeonView;
+		};
+		76434EBA1EA7C38E002F4C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76434E8F1EA7C38E002F4C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76434E961EA7C38E002F4C30;
+			remoteInfo = AccordeonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76434E971EA7C38E002F4C30 /* AccordeonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccordeonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76434E9A1EA7C38E002F4C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76434E9C1EA7C38E002F4C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76434E9F1EA7C38E002F4C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76434EA21EA7C38E002F4C30 /* AccordeonView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccordeonView.xcdatamodel; sourceTree = "<group>"; };
+		76434EA41EA7C38E002F4C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76434EA71EA7C38E002F4C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76434EA91EA7C38E002F4C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76434EAE1EA7C38E002F4C30 /* AccordeonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccordeonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76434EB21EA7C38E002F4C30 /* AccordeonViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordeonViewTests.swift; sourceTree = "<group>"; };
+		76434EB41EA7C38E002F4C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76434EB91EA7C38E002F4C30 /* AccordeonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccordeonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76434EBD1EA7C38E002F4C30 /* AccordeonViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordeonViewUITests.swift; sourceTree = "<group>"; };
+		76434EBF1EA7C38E002F4C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76434E941EA7C38E002F4C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EAB1EA7C38E002F4C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EB61EA7C38E002F4C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76434E8E1EA7C38E002F4C30 = {
+			isa = PBXGroup;
+			children = (
+				76434E991EA7C38E002F4C30 /* AccordeonView */,
+				76434EB11EA7C38E002F4C30 /* AccordeonViewTests */,
+				76434EBC1EA7C38E002F4C30 /* AccordeonViewUITests */,
+				76434E981EA7C38E002F4C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76434E981EA7C38E002F4C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76434E971EA7C38E002F4C30 /* AccordeonView.app */,
+				76434EAE1EA7C38E002F4C30 /* AccordeonViewTests.xctest */,
+				76434EB91EA7C38E002F4C30 /* AccordeonViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76434E991EA7C38E002F4C30 /* AccordeonView */ = {
+			isa = PBXGroup;
+			children = (
+				76434E9A1EA7C38E002F4C30 /* AppDelegate.swift */,
+				76434E9C1EA7C38E002F4C30 /* ViewController.swift */,
+				76434E9E1EA7C38E002F4C30 /* Main.storyboard */,
+				76434EA41EA7C38E002F4C30 /* Assets.xcassets */,
+				76434EA61EA7C38E002F4C30 /* LaunchScreen.storyboard */,
+				76434EA91EA7C38E002F4C30 /* Info.plist */,
+				76434EA11EA7C38E002F4C30 /* AccordeonView.xcdatamodeld */,
+			);
+			path = AccordeonView;
+			sourceTree = "<group>";
+		};
+		76434EB11EA7C38E002F4C30 /* AccordeonViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				76434EB21EA7C38E002F4C30 /* AccordeonViewTests.swift */,
+				76434EB41EA7C38E002F4C30 /* Info.plist */,
+			);
+			path = AccordeonViewTests;
+			sourceTree = "<group>";
+		};
+		76434EBC1EA7C38E002F4C30 /* AccordeonViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76434EBD1EA7C38E002F4C30 /* AccordeonViewUITests.swift */,
+				76434EBF1EA7C38E002F4C30 /* Info.plist */,
+			);
+			path = AccordeonViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76434E961EA7C38E002F4C30 /* AccordeonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76434EC21EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonView" */;
+			buildPhases = (
+				76434E931EA7C38E002F4C30 /* Sources */,
+				76434E941EA7C38E002F4C30 /* Frameworks */,
+				76434E951EA7C38E002F4C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccordeonView;
+			productName = AccordeonView;
+			productReference = 76434E971EA7C38E002F4C30 /* AccordeonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76434EAD1EA7C38E002F4C30 /* AccordeonViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76434EC51EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonViewTests" */;
+			buildPhases = (
+				76434EAA1EA7C38E002F4C30 /* Sources */,
+				76434EAB1EA7C38E002F4C30 /* Frameworks */,
+				76434EAC1EA7C38E002F4C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76434EB01EA7C38E002F4C30 /* PBXTargetDependency */,
+			);
+			name = AccordeonViewTests;
+			productName = AccordeonViewTests;
+			productReference = 76434EAE1EA7C38E002F4C30 /* AccordeonViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76434EB81EA7C38E002F4C30 /* AccordeonViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76434EC81EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonViewUITests" */;
+			buildPhases = (
+				76434EB51EA7C38E002F4C30 /* Sources */,
+				76434EB61EA7C38E002F4C30 /* Frameworks */,
+				76434EB71EA7C38E002F4C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76434EBB1EA7C38E002F4C30 /* PBXTargetDependency */,
+			);
+			name = AccordeonViewUITests;
+			productName = AccordeonViewUITests;
+			productReference = 76434EB91EA7C38E002F4C30 /* AccordeonViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76434E8F1EA7C38E002F4C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kirill Netavskiy";
+				TargetAttributes = {
+					76434E961EA7C38E002F4C30 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 82ATU6CAC3;
+						ProvisioningStyle = Automatic;
+					};
+					76434EAD1EA7C38E002F4C30 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 82ATU6CAC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76434E961EA7C38E002F4C30;
+					};
+					76434EB81EA7C38E002F4C30 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 82ATU6CAC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76434E961EA7C38E002F4C30;
+					};
+				};
+			};
+			buildConfigurationList = 76434E921EA7C38E002F4C30 /* Build configuration list for PBXProject "AccordeonView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76434E8E1EA7C38E002F4C30;
+			productRefGroup = 76434E981EA7C38E002F4C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76434E961EA7C38E002F4C30 /* AccordeonView */,
+				76434EAD1EA7C38E002F4C30 /* AccordeonViewTests */,
+				76434EB81EA7C38E002F4C30 /* AccordeonViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76434E951EA7C38E002F4C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76434EA81EA7C38E002F4C30 /* LaunchScreen.storyboard in Resources */,
+				76434EA51EA7C38E002F4C30 /* Assets.xcassets in Resources */,
+				76434EA01EA7C38E002F4C30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EAC1EA7C38E002F4C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EB71EA7C38E002F4C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76434E931EA7C38E002F4C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76434EA31EA7C38E002F4C30 /* AccordeonView.xcdatamodeld in Sources */,
+				76434E9D1EA7C38E002F4C30 /* ViewController.swift in Sources */,
+				76434E9B1EA7C38E002F4C30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EAA1EA7C38E002F4C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76434EB31EA7C38E002F4C30 /* AccordeonViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76434EB51EA7C38E002F4C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76434EBE1EA7C38E002F4C30 /* AccordeonViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76434EB01EA7C38E002F4C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76434E961EA7C38E002F4C30 /* AccordeonView */;
+			targetProxy = 76434EAF1EA7C38E002F4C30 /* PBXContainerItemProxy */;
+		};
+		76434EBB1EA7C38E002F4C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76434E961EA7C38E002F4C30 /* AccordeonView */;
+			targetProxy = 76434EBA1EA7C38E002F4C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76434E9E1EA7C38E002F4C30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76434E9F1EA7C38E002F4C30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76434EA61EA7C38E002F4C30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76434EA71EA7C38E002F4C30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76434EC01EA7C38E002F4C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76434EC11EA7C38E002F4C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76434EC31EA7C38E002F4C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76434EC41EA7C38E002F4C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76434EC61EA7C38E002F4C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccordeonView.app/AccordeonView";
+			};
+			name = Debug;
+		};
+		76434EC71EA7C38E002F4C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccordeonView.app/AccordeonView";
+			};
+			name = Release;
+		};
+		76434EC91EA7C38E002F4C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AccordeonView;
+			};
+			name = Debug;
+		};
+		76434ECA1EA7C38E002F4C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 82ATU6CAC3;
+				INFOPLIST_FILE = AccordeonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selfmade.AccordeonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AccordeonView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76434E921EA7C38E002F4C30 /* Build configuration list for PBXProject "AccordeonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76434EC01EA7C38E002F4C30 /* Debug */,
+				76434EC11EA7C38E002F4C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76434EC21EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76434EC31EA7C38E002F4C30 /* Debug */,
+				76434EC41EA7C38E002F4C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76434EC51EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76434EC61EA7C38E002F4C30 /* Debug */,
+				76434EC71EA7C38E002F4C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76434EC81EA7C38E002F4C30 /* Build configuration list for PBXNativeTarget "AccordeonViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76434EC91EA7C38E002F4C30 /* Debug */,
+				76434ECA1EA7C38E002F4C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76434EA11EA7C38E002F4C30 /* AccordeonView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76434EA21EA7C38E002F4C30 /* AccordeonView.xcdatamodel */,
+			);
+			currentVersion = 76434EA21EA7C38E002F4C30 /* AccordeonView.xcdatamodel */;
+			path = AccordeonView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76434E8F1EA7C38E002F4C30 /* Project object */;
+}
